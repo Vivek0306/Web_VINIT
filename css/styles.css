@@ -64,7 +64,9 @@
     scroll-behavior: smooth;
   }
 }
-
+header{
+  height: 100vh;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -4065,6 +4067,12 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
 }
+@media only screen and (max-width: 600px){
+    .navbar-brand{
+      font-size: 0.73rem;
+    }
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
